@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Project One
+
+app:
+  page-size: 10
