@@ -4,13 +4,24 @@ import "./login.css";
 
 export default function Home() {
   return (
-    <div id="login-background">
+    <div>
       <main>
 
-        <p id="p1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra augue vel massa semper fermentum. Nam faucibus magna ut tempor rutrum. Vivamus sit amet urna faucibus, aliquam eros id, tincidunt lacus. Donec sit amet ipsum in massa pellentesque tincidunt. Etiam rhoncus mi viverra lacus vestibulum, eu ornare nisl fermentum. Duis tincidunt eu tortor ac pulvinar. Phasellus varius lacus nec luctus tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse at odio eget libero dignissim volutpat. Nullam nec sodales quam, et venenatis libero. Nullam scelerisque nisl vel nisl mollis molestie. Suspendisse fermentum dolor et urna malesuada pulvinar. Praesent finibus nunc quis ornare semper. Proin sed libero at elit maximus sodales ut sed lorem. </p>
-        <p id="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra augue vel massa semper fermentum. Nam faucibus magna ut tempor rutrum. Vivamus sit amet urna faucibus, aliquam eros id, tincidunt lacus. Donec sit amet ipsum in massa pellentesque tincidunt. Etiam rhoncus mi viverra lacus vestibulum, eu ornare nisl fermentum. Duis tincidunt eu tortor ac pulvinar. Phasellus varius lacus nec luctus tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse at odio eget libero dignissim volutpat. Nullam nec sodales quam, et venenatis libero. Nullam scelerisque nisl vel nisl mollis molestie. Suspendisse fermentum dolor et urna malesuada pulvinar. Praesent finibus nunc quis ornare semper. Proin sed libero at elit maximus sodales ut sed lorem. </p>
-        <p id="p3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra augue vel massa semper fermentum. Nam faucibus magna ut tempor rutrum. Vivamus sit amet urna faucibus, aliquam eros id, tincidunt lacus. Donec sit amet ipsum in massa pellentesque tincidunt. Etiam rhoncus mi viverra lacus vestibulum, eu ornare nisl fermentum. Duis tincidunt eu tortor ac pulvinar. Phasellus varius lacus nec luctus tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse at odio eget libero dignissim volutpat. Nullam nec sodales quam, et venenatis libero. Nullam scelerisque nisl vel nisl mollis molestie. Suspendisse fermentum dolor et urna malesuada pulvinar. Praesent finibus nunc quis ornare semper. Proin sed libero at elit maximus sodales ut sed lorem. </p>
-        <p id="p4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra augue vel massa semper fermentum. Nam faucibus magna ut tempor rutrum. Vivamus sit amet urna faucibus, aliquam eros id, tincidunt lacus. Donec sit amet ipsum in massa pellentesque tincidunt. Etiam rhoncus mi viverra lacus vestibulum, eu ornare nisl fermentum. Duis tincidunt eu tortor ac pulvinar. Phasellus varius lacus nec luctus tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse at odio eget libero dignissim volutpat. Nullam nec sodales quam, et venenatis libero. Nullam scelerisque nisl vel nisl mollis molestie. Suspendisse fermentum dolor et urna malesuada pulvinar. Praesent finibus nunc quis ornare semper. Proin sed libero at elit maximus sodales ut sed lorem. </p>
+        <h1>Project One</h1>
+
+        <nav className="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Register</a></li>
+            </ul>
+        </nav>
+
+        <div id="login-content">
+            <h3> This is the Login Page< /h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id feugiat est. Aliquam malesuada nisl id nunc vestibulum suscipit. Maecenas nunc ex, iaculis a augue sed, vestibulum blandit turpis. Nulla eget placerat elit. Vivamus dignissim odio in hendrerit vulputate. Aenean aliquet orci eu erat hendrerit sagittis. Etiam eget nunc ut est feugiat elementum sit amet ut augue. Donec ac est ac quam porta ultrices vel quis lectus. </p>
+        </div>
 
       </main>
     </div>

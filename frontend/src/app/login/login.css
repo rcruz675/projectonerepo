@@ -1,19 +1,38 @@
-#login-background{
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+body{
+    background: linear-gradient(to right, skyblue, white);
+    margin: 0px;
 }
 
-#p1{
-
+#login-content{
+    margin: 20px
 }
 
-#p2{
-
+h1{
+    text-align: center;
 }
 
-#p3{
-
+.navbar ul{
+    list-style-type:none;
+    background-color: #3C4142;
+    padding: 0 0 0 12px;
+    margin: 0px;
+    overflow: hidden;
 }
 
-#p4{
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
 
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%)
+}
+
+.navbar li{
+    float: left;
 }
