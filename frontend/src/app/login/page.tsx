@@ -19,7 +19,7 @@ export default function Home() {
         </nav>
 
         <div id="login-content">
-            <h3> This is the Login Page< /h3>
+            <h3> This is the Login Page </h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id feugiat est. Aliquam malesuada nisl id nunc vestibulum suscipit. Maecenas nunc ex, iaculis a augue sed, vestibulum blandit turpis. Nulla eget placerat elit. Vivamus dignissim odio in hendrerit vulputate. Aenean aliquet orci eu erat hendrerit sagittis. Etiam eget nunc ut est feugiat elementum sit amet ut augue. Donec ac est ac quam porta ultrices vel quis lectus. </p>
         </div>
 
