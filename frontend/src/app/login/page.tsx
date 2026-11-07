@@ -7,14 +7,14 @@ export default function Home() {
     <div>
       <main>
 
-        <h1>Project One</h1>
+
 
         <nav className="navbar">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Login</a></li>
+                <li id="website_title">Project One</li>
                 <li><a href="">Register</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Home</a></li>
             </ul>
         </nav>
 
