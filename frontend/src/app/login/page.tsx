@@ -12,7 +12,7 @@ export default function Home() {
         <nav className="navbar">
             <ul>
                 <li id="website_title">Project One</li>
-                <li><a href="">Register</a></li>
+                <li><a href="./signup">Sign Up</a></li>
                 <li><a href="">Login</a></li>
                 <li><a href="">Home</a></li>
             </ul>
