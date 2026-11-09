@@ -37,6 +37,18 @@ h1{
     font-family: "Poppins", sans-serif;
 }
 
+#navbar-current{
+    color: #b74b4b;
+    text-decoration: underline;
+    text-decoration-color: #b74b4b;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+}
+
+.navbar a:active{
+    color: red;
+}
+
 .navbar a:hover{
     background-color: hsl(0, 0%, 10%)
 }
@@ -53,7 +65,7 @@ h1{
     border-bottom-color: #3e4040;
 }
 
-#website_title{
+#website-title{
     color: white;
     text-decoration: none;
     padding: 15px;

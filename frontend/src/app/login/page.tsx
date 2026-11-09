@@ -9,9 +9,9 @@ export default function Home() {
 
         <nav className="navbar">
             <ul>
-                <li id="website_title">Project One</li>
+                <li id="website-title">Project One</li>
                 <li><a href="./signup">Sign Up</a></li>
-                <li><a href="/login">Login</a></li>
+                <li><a href="/login" id="navbar-current">Login</a></li>
                 <li><a href="./">Home</a></li>
             </ul>
         </nav>
