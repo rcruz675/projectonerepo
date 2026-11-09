@@ -7,14 +7,12 @@ export default function Home() {
     <div>
       <main>
 
-
-
         <nav className="navbar">
             <ul>
                 <li id="website_title">Project One</li>
                 <li><a href="./signup">Sign Up</a></li>
-                <li><a href="">Login</a></li>
-                <li><a href="">Home</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="./">Home</a></li>
             </ul>
         </nav>
 
@@ -42,7 +40,7 @@ export default function Home() {
                 <button type="submit" className="btn"> Login </button>
 
                 <div className="register-link">
-                    <p> Don't have an account? <a href="#"> Register here </a> </p>
+                    <p> Don't have an account? <a href="./signup"> Register here </a> </p>
                 </div>
 
             </form>
