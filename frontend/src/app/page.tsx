@@ -30,6 +30,9 @@ export default function Home() {
                 <p> If you are a wiki editor from Fandom, you can reclaim your username <span style={{ color: "cyan" }}>through this link</span>. </p>
                 <p> We have a sister wiki dedicated to <i>Arknights: Endfield</i>: the <span style={{ color: "cyan" }}>Endfield Talos Wiki</span>! </p>
 
+            </div>
+
+            <div className="intro-wrapper">
 
             </div>
 

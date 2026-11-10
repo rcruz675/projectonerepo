@@ -86,10 +86,11 @@ h1{
 .wrapper{
     margin: 0px;
     margin-top: 30px;
-    padding: 0px;
+    padding: 30px;
     box-sizing: border-box;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 70vh;
@@ -110,7 +111,23 @@ h1{
     font-family: "Inter", sans-serif;
     justify-content: center;
     align-items: center;
-    min-height: 63vh;
+    min-height: 53vh;
+    width: 1250px;
+    background: transparent;
+    background-color: rgba(122, 119, 121, 0.2);
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.intro-wrapper{
+    margin: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 53vh;
     width: 1250px;
     background: transparent;
     background-color: rgba(122, 119, 121, 0.2);
